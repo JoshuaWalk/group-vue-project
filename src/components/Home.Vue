@@ -1,7 +1,7 @@
 <template>
     <div id="home">
         <h3> home page</h3>
-        <button>log in</button>
+        <button component="authentication">log in</button>
         <button>shop</button>
         <button>cart</button>
       

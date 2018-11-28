@@ -4,6 +4,7 @@ import Cart from '@/components/Cart'
 import Home from '@/components/Home'
 import Shop from '@/components/Shop'
 import Authentication from '@/components/Authentication'
+import SignUp from '@/components/SignUp'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/login',
       name: 'Authentication',
       component: Authentication
+    },
+    {
+      path: '/signup',
+      name: 'SignUp',
+      component: SignUp
     }
   ]
 })
